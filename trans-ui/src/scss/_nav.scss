@@ -4,10 +4,12 @@
 	justify-content: space-between;
 	padding: 5px;
 	width: 100%;
-	height: 75px;
+	height: 60px;
 	align-items: center;
 	font-size: 0.9rem;
 	background: white;
+	position: fixed;
+	box-shadow: 0px 5px 5px $background-color;
 
 	.nav-bar {
 		display: flex;
@@ -16,26 +18,6 @@
 		padding: 10px;
 		height: 55px;
 
-		.nav-btn {
-			margin-right: 40px;
-			height: 100%;
-			padding-top: 3%;
-			// styling hamburger icon
-			.btn-line {
-				height: 2px;
-				background: $hamburger-color;
-				margin-bottom: 5px;
-				&.one {
-					width: 25px;
-				}
-				&.two {
-					width: 14px;
-				}
-				&.three {
-					width: 22px;
-				}
-			}
-		}
 		.nav-item {
 			align-items: center;
 			display: flex;
@@ -49,7 +31,9 @@
 				display: block;
 				font-weight: 700;
 				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-				font-size: larger;
+				font-size: x-large;
+				color: $primary-color;
+				margin-left: 30px;
 			}
 
 			img {

@@ -13,17 +13,15 @@
 }
 .container {
 	display: flex;
-}
-
-//styling there point buttons
-.menu-btn {
-	display: flex;
-
-	.btn-point {
-		width: 2px;
-		height: 2px;
-		border-radius: 50%;
-		margin-right: 2px;
-		background: $hamburger-color;
+	.inner-container {
+		padding-top: 100px;
+		.trans-container {
+			display: flex;
+			justify-content: space-evenly;
+			.transaction-card {
+				background: white;
+				border: solid black;
+			}
+		}
 	}
 }

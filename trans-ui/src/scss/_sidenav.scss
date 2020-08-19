@@ -1,0 +1,15 @@
+.sidebar {
+	width: 75px;
+	height: 100vh;
+	align-items: center;
+	padding: 20px;
+	background: $sidebar-color;
+
+	.logo-container {
+		width: 55px;
+		height: 55px;
+		img {
+			width: 50px;
+		}
+	}
+}

@@ -165,12 +165,13 @@
 }
 .container .inner-container .overview .summary-container .summary-card {
   margin-bottom: 5px;
+  font-size: 13px;
   height: 100%;
 }
 .container .inner-container .overview .summary-container .summary-card .summary-item {
-  padding: 5px;
+  padding: 15px;
   height: 50%;
-  margin-top: 5px;
+  margin-bottom: 5px;
   background: white;
 }
 .container .inner-container .overview .summary-container .summary-card .summary-item .progress-container {
@@ -182,6 +183,21 @@
 .container .inner-container .overview .summary-container .summary-card .summary-item .progress-container .progress-bar {
   background: #27ae60;
   border-radius: 3px;
+}
+.container .inner-container .overview .summary-container .summary-card .summary-item p {
+  margin-top: 10px;
+}
+.container .inner-container .overview .summary-container .summary-card .summary-item .pending {
+  color: #fdc203;
+  font-weight: 700;
+}
+.container .inner-container .overview .summary-container .summary-card .summary-item .reconcilled {
+  color: #27ae60;
+  font-weight: 700;
+}
+.container .inner-container .overview .summary-container .summary-card .summary-item .total {
+  color: #1875f0;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index.css.map */

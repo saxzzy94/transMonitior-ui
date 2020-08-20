@@ -17,7 +17,7 @@ const SummaryCard = () => {
 					Pending Orders: <span className='pending'>20</span>
 				</p>
 				<p>
-					Reconcilled Orders: <span className='reconciled'>80</span>
+					Reconcilled Orders: <span className='reconcilled'>80</span>
 				</p>
 				<p>
 					Total Orders: <span className='total '>100</span>
@@ -37,7 +37,7 @@ const SummaryCard = () => {
 					Un-reconcilled Payments: <span className='pending'>20</span>
 				</p>
 				<p>
-					Reconcilled Payments: <span className='reconciled'>80</span>
+					Reconcilled Payments: <span className='reconcilled'>80</span>
 				</p>
 				<p>
 					Total Payments: <span className='total '>100</span>

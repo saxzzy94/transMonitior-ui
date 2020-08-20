@@ -14,7 +14,7 @@ const PaymentCard = () => {
 					<img src='' alt='' />
 				</div>{" "}
 				<div className='item-title'>Apple Mac Book 15" 250 SSD 12GB</div>
-				<div className='item-price'>$7343</div>{" "}
+				<div className='item-price'>$7343</div>
 				<div className='item-no'>132423135</div>
 				<div className='item-time'>12:34</div>
 			</div>

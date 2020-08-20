@@ -55,14 +55,15 @@
 
 				.summary-card {
 					margin-bottom: 5px;
-
+					font-size: 13px;
 					height: 100%;
 
 					.summary-item {
-						padding: 5px;
+						padding: 15px;
 						height: 50%;
-						margin-top: 5px;
+						margin-bottom: 5px;
 						background: white;
+
 						.progress-container {
 							background: $secondary-color;
 							width: 100%;
@@ -72,6 +73,21 @@
 								background: $positive-color;
 								border-radius: 3px;
 							}
+						}
+						p {
+							margin-top: 10px;
+						}
+						.pending {
+							color: $secondary-color;
+							font-weight: 700;
+						}
+						.reconcilled {
+							color: $positive-color;
+							font-weight: 700;
+						}
+						.total {
+							color: $primary-color;
+							font-weight: 700;
 						}
 					}
 				}

@@ -1,11 +1,11 @@
 import React from "react";
 
-const TransactionCard = () => {
+const TransactionCard = ({ title, amount }) => {
 	return (
 		<div className='transaction-card'>
 			<div className='transaction-content'>
-				<h3>Daily Transaction Volume</h3>
-				<h1>2,342</h1>
+				<div>{title}</div>
+				<h3>{amount}</h3>
 			</div>
 			<div></div>
 		</div>

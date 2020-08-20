@@ -10,17 +10,71 @@
 :root {
 	background: $background-color;
 	font-family: Arial, Helvetica, sans-serif;
+	color: $text-color;
 }
 .container {
 	display: flex;
 	.inner-container {
-		padding-top: 100px;
+		padding-top: 90px;
+		padding-left: 30px;
+		padding-right: 10px;
+		width: 100%;
+
 		.trans-container {
 			display: flex;
-			justify-content: space-evenly;
-			.transaction-card {
-				background: white;
-				border: solid black;
+			justify-content: space-between;
+			font-size: smaller;
+			.left,
+			.right {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 10px;
+				width: 48%;
+
+				.transaction-card {
+					background: white;
+					padding: 15px;
+					height: 70px;
+					h3 {
+						padding-top: 3px;
+					}
+				}
+			}
+		}
+		.overview {
+			margin-top: 30px;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			justify-content: space-between;
+			.chart-container {
+				width: 65%;
+			}
+			.summary-container {
+				width: 35%;
+
+				.summary-card {
+					margin-bottom: 5px;
+
+					height: 100%;
+
+					.summary-item {
+						padding: 5px;
+						height: 50%;
+						margin-top: 5px;
+						background: white;
+						.progress-container {
+							background: $secondary-color;
+							width: 100%;
+							height: 5px;
+							border-radius: 3px;
+							.progress-bar {
+								background: $positive-color;
+								border-radius: 3px;
+							}
+						}
+					}
+				}
 			}
 		}
 	}
